@@ -73,30 +73,4 @@ collections:
       all:
         label: <<smart_label>>
         unplayed: true
-
-  IMDb Top 250:
-    imdb_chart: top_movies
-    sync_mode: sync
-    collection_mode: hide
-    url_poster:  https://raw.githubusercontent.com/Kometa-Team/Default-Images/master/chart/IMDb%20Top%20250.jpg
-    summary: "List of unwatched IMDb Top 250 movies"
-    sort_title: "!020_IMDb Top 250" 
-    smart_label:
-      sort_by: audience_rating.desc
-      all:
-        label: <<smart_label>>
-        unplayed: true
-
-  IMDb Popular:
-    imdb_chart: popular_movies
-    sync_mode: sync
-    collection_mode: hide
-    url_poster:  https://raw.githubusercontent.com/Kometa-Team/Default-Images/master/chart/IMDb%20Top%20250.jpg
-    summary: "List of unwatched, popular movies on IMDb"
-    sort_title: "!020_IMDb Popular" 
-    smart_label:
-      sort_by: release.desc
-      all:
-        label: <<smart_label>>
-        unplayed: true
     
