@@ -1,0 +1,70 @@
+collections:
+  Oscars Best Picture Nominees:
+    imdb_award: 
+      event_id: ev0000003
+      category_filter: [best picture, best motion picture of the year]
+      sync_mode: sync
+      collection_mode: hide
+      event_year: 1929-current
+      winning: false
+    summary: "A collection of Oscar nominated films for Best Motion Picture of the Year"
+    url_poster: https://raw.githubusercontent.com/Kometa-Team/Default-Images/master/award/oscars/best_picture_nomination.jpg
+    smart_label:
+      sort_by: release.desc
+      all:
+        label: <<smart_label>>
+        unplayed: true
+
+  Oscars Best Picture Winners:
+    imdb_award: 
+      event_id: ev0000003
+      category_filter: [best picture, best motion picture of the year]
+      sync_mode: sync
+      collection_mode: hide
+      event_year: 1929-current
+      winning: true
+    summary: "A collection of Oscar nominated films for Best Motion Picture of the Year"
+    url_poster: https://raw.githubusercontent.com/Kometa-Team/Default-Images/master/award/oscars/best_picture_winner.jpg
+    smart_label:
+      sort_by: release.desc
+      all:
+        label: <<smart_label>>
+        unplayed: true
+
+  Oscars Best Director Winners:
+    imdb_award: 
+      event_id: ev0000003
+      category_filter: [Best Achievement in Directing, Best Director]
+      sync_mode: sync
+      collection_mode: hide
+      event_year: 1929-current
+      winning: true
+    summary: "The Academy Award for Best Director is one of the Academy Awards presented annually by the Academy of Motion Picture Arts and Sciences since the awards debuted in 1929."
+    url_poster: https://raw.githubusercontent.com/Kometa-Team/Default-Images/master/award/oscars/best_director_winner.jpg
+    smart_label:
+      sort_by: release.desc
+      all:
+        label: <<smart_label>>
+        unplayed: true
+
+  Oscars International Feature Winners:
+    trakt_list: https://trakt.tv/users/popeadam/lists/academy-awards-best-international-feature-film
+    sync_mode: sync
+    summary: Winners of the Best Foreign Feature Film and International Feature Film categories at the Academy Awards/Oscars
+    url_poster: https://i.ibb.co/sH8ytfm/international-feature-winners.png
+    smart_label:
+      sort_by: release.desc
+      all:
+        label: <<smart_label>>
+        unplayed: true
+
+  Oscars International Feature Nominees:
+    trakt_list: https://trakt.tv/users/popeadam/lists/academy-awards-international-feature-film-nominees
+    sync_mode: sync
+    summary: Winners and nominees of the Best Foreign Feature Film and International Feature Film categories at the Academy Awards/Oscars
+    url_poster: https://i.ibb.co/MBLjgzH/international-feature-nominees.png
+    smart_label:
+      sort_by: release.desc
+      all:
+        label: <<smart_label>>
+        unplayed: true
