@@ -7,7 +7,7 @@ collections:
       collection_mode: hide
       event_year: 1929-current
       winning: false
-    summary: "A collection of unwatched Oscar nominated films for Best Motion Picture of the Year"
+    summary: A collection of unwatched Oscar nominated films for Best Motion Picture of the Year
     url_poster: https://raw.githubusercontent.com/Kometa-Team/Default-Images/master/award/oscars/best_picture_nomination.jpg
     sort_title: "!130_Oscars !2"
     smart_label:
@@ -24,7 +24,7 @@ collections:
       collection_mode: hide
       event_year: 1929-current
       winning: true
-    summary: "A collection of unwatched Oscar nominated films for Best Motion Picture of the Year"
+    summary: A collection of unwatched Oscar nominated films for Best Motion Picture of the Year
     sort_title: "!130_Oscars !1"
     url_poster: https://raw.githubusercontent.com/Kometa-Team/Default-Images/master/award/oscars/best_picture_winner.jpg
     smart_label:
@@ -41,7 +41,7 @@ collections:
       collection_mode: hide
       event_year: 1929-current
       winning: true
-    summary: "The Academy Award for Best Director is one of the Academy Awards presented annually by the Academy of Motion Picture Arts and Sciences since the awards debuted in 1929."
+    summary: The Academy Award for Best Director is one of the Academy Awards presented annually by the Academy of Motion Picture Arts and Sciences since the awards debuted in 1929.
     url_poster: https://raw.githubusercontent.com/Kometa-Team/Default-Images/master/award/oscars/best_director_winner.jpg
     sort_title: "!130_Oscars !3"
     smart_label:
@@ -53,7 +53,7 @@ collections:
   Oscars International Feature Winners:
     trakt_list: https://trakt.tv/users/popeadam/lists/academy-awards-best-international-feature-film
     sync_mode: sync
-    summary: "Unwatched winning films of the Best Foreign Feature and International Feature categories at the Academy Awards/Oscars"
+    summary: Unwatched winning films of the Best Foreign Feature and International Feature categories at the Academy Awards/Oscars
     url_poster: https://i.ibb.co/sH8ytfm/international-feature-winners.png
     sort_title: "!130_Oscars !4"
     smart_label:
