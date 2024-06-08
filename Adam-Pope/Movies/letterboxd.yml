@@ -2,7 +2,61 @@ collections:
   Top 250 Horrors:
     letterboxd_list_details: https://letterboxd.com/darrencb/list/letterboxds-top-250-horror-films
     url_poster: https://raw.githubusercontent.com/Kometa-Team/Default-Images/master/chart/Top%20250%20Horror.jpg
-    sort_title: "!020_LB_Top 250 Horror"
+    sort_title: "!020_LB_3"
+    smart_label:
+      sort_by: release.desc
+      all:
+        label: <<smart_label>>
+        unplayed: true
+  Letterboxd Top 250:
+    letterboxd_list_details: https://letterboxd.com/dave/list/official-top-250-narrative-feature-films
+    url_poster: https://raw.githubusercontent.com/Kometa-Team/Default-Images/master/chart/Letterboxd%20Top%20250.jpg
+    sort_title: "!020_LB_1"
+    smart_label:
+      sort_by: release.desc
+      all:
+        label: <<smart_label>>
+        unplayed: true
+  Sight & Sound Greatest Films:
+    letterboxd_list_details: https://letterboxd.com/bfi/list/sight-and-sounds-greatest-films-of-all-time
+    url_poster: https://raw.githubusercontent.com/Kometa-Team/Default-Images/master/chart/Sight%20%26%20Sound%20Greatest%20Films.jpg
+    sort_title: "!020_LB_4"
+    smart_label:
+      sort_by: release.desc
+      all:
+        label: <<smart_label>>
+        unplayed: true
+  1,001 To See Before You Die:
+    letterboxd_list_details: https://letterboxd.com/kokokara/list/1001-movies-to-see-before-you-die
+    url_poster: https://raw.githubusercontent.com/Kometa-Team/Default-Images/master/chart/1%2C001%20To%20See%20Before%20You%20Die.jpg
+    sort_title: "!020_LB_4"
+    smart_label:
+      sort_by: release.desc
+      all:
+        label: <<smart_label>>
+        unplayed: true
+  Edgar Wright's 1,000 Favorites:
+    letterboxd_list_details: https://letterboxd.com/crew/list/edgar-wrights-1000-favorite-movies
+    url_poster: "https://raw.githubusercontent.com/Kometa-Team/Default-Images/master/chart/Edgar%20Wright's%201%2C000%20Favorites.jpg"
+    sort_title: "!020_LB_2"
+    smart_label:
+      sort_by: release.desc
+      all:
+        label: <<smart_label>>
+        unplayed: true
+  Roger Ebert's Great Movies:
+    letterboxd_list_details: https://letterboxd.com/dvideostor/list/roger-eberts-great-movies
+    url_poster: "https://raw.githubusercontent.com/Kometa-Team/Default-Images/master/chart/Roger%20Ebert's%20Great%20Movies.jpg"
+    sort_title: "!020_LB_4"
+    smart_label:
+      sort_by: release.desc
+      all:
+        label: <<smart_label>>
+        unplayed: true
+  Top 250 Most Fans:
+    letterboxd_list_details: https://letterboxd.com/jack/list/official-top-250-films-with-the-most-fans
+    url_poster: https://raw.githubusercontent.com/Kometa-Team/Default-Images/master/chart/Top%20250%20Most%20Fans.jpg
+    sort_title: "!020_LB_3"
     smart_label:
       sort_by: release.desc
       all:
