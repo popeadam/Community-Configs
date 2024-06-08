@@ -2,8 +2,8 @@ overlays:
   year:
     overlay:
       name: text(<<originally_available[%Y]>>)
-      horizontal_offset: 45
-      vertical_offset: 45
+      horizontal_offset: 30
+      vertical_offset: 30
       horizontal_align: left
       vertical_align: top
       font_size: 63
