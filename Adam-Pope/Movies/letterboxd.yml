@@ -1,0 +1,10 @@
+collections:
+  Top 250 Horrors:
+    letterboxd_list_details: https://letterboxd.com/darrencb/list/letterboxds-top-250-horror-films
+    url_poster: https://raw.githubusercontent.com/Kometa-Team/Default-Images/master/chart/Top%20250%20Horror.jpg
+    sort_title: "!020_LB_Top 250 Horror"
+    smart_label:
+      sort_by: release.desc
+      all:
+        label: <<smart_label>>
+        unplayed: true
