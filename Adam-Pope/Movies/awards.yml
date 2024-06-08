@@ -73,4 +73,21 @@ collections:
       all:
         label: <<smart_label>>
         unplayed: true
+
+  BAFTA Winners:
+    imdb_award: 
+      event_id: ev0000123
+      category_filter: [Best Film, Best Director]
+      sync_mode: sync
+      collection_mode: hide
+      event_year: 1929-current
+      winning: true
+    summary: "Unwatched British Academy of Film and Television Arts Best Film and Best Director Winners."
+    url_poster: https://raw.githubusercontent.com/Kometa-Team/Default-Images/master/award/bafta/winner.jpg
+    sort_title: "!130_BAFTA !"
+    smart_label:
+      sort_by: release.desc
+      all:
+        label: <<smart_label>>
+        unplayed: true
     
