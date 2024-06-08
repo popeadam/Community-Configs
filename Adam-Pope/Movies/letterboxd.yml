@@ -26,7 +26,7 @@ collections:
       all:
         label: <<smart_label>>
         unplayed: true
-  1,001 To See Before You Die:
+  "1,001 To See Before You Die":
     letterboxd_list_details: https://letterboxd.com/kokokara/list/1001-movies-to-see-before-you-die
     url_poster: https://raw.githubusercontent.com/Kometa-Team/Default-Images/master/chart/1%2C001%20To%20See%20Before%20You%20Die.jpg
     sort_title: "!020_LB_4"
@@ -35,7 +35,7 @@ collections:
       all:
         label: <<smart_label>>
         unplayed: true
-  Edgar Wright's 1,000 Favorites:
+  "Edgar Wright's 1,000 Favorites":
     letterboxd_list_details: https://letterboxd.com/crew/list/edgar-wrights-1000-favorite-movies
     url_poster: "https://raw.githubusercontent.com/Kometa-Team/Default-Images/master/chart/Edgar%20Wright's%201%2C000%20Favorites.jpg"
     sort_title: "!020_LB_2"
@@ -44,7 +44,7 @@ collections:
       all:
         label: <<smart_label>>
         unplayed: true
-  Roger Ebert's Great Movies:
+  "Roger Ebert's Great Movies":
     letterboxd_list_details: https://letterboxd.com/dvideostor/list/roger-eberts-great-movies
     url_poster: "https://raw.githubusercontent.com/Kometa-Team/Default-Images/master/chart/Roger%20Ebert's%20Great%20Movies.jpg"
     sort_title: "!020_LB_4"
