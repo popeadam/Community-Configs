@@ -13,7 +13,7 @@ collections:
     url_poster: https://raw.githubusercontent.com/Kometa-Team/Default-Images/master/chart/Letterboxd%20Top%20250.jpg
     sort_title: "!020_LB_1"
     smart_label:
-      sort_by: rating.desc
+      sort_by: user_rating.desc
       all:
         label: <<smart_label>>
         unplayed: true
