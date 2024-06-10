@@ -94,7 +94,7 @@ collections:
   Cannes Winners:
     imdb_award: 
       event_id: ev0000147
-      category_filter: ["Palme d'Or", Grand Prize of the Festival, Jury Prize, Jury Special Prize, Best Director, Un Certain Regard Award, Un Certain Regard Jury Prize]
+      category_filter: ["Palme d'Or", Grand Prize of the Festival, Grand Prize of the Jury, Jury Prize, Jury Special Prize, Best Director, Un Certain Regard Award, Un Certain Regard Jury Prize]
       sync_mode: sync
       collection_mode: hide
       event_year: 1929-current
