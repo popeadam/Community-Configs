@@ -5,7 +5,8 @@ collections:
     collection_mode: hide
     url_poster:  https://raw.githubusercontent.com/Kometa-Team/Default-Images/master/chart/IMDb%20Top%20250.jpg
     summary: "List of unwatched IMDb Top 250 movies"
-    sort_title: "!020_IMDb Top 250" 
+    sort_title: "!020_IMDb Top 250"
+    radarr_add_missing: true
     smart_label:
       sort_by: audience_rating.desc
       all:
