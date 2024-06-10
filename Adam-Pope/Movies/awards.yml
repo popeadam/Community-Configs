@@ -9,7 +9,7 @@ collections:
       winning: false
     summary: A collection of unwatched Oscar nominated films for Best Motion Picture of the Year
     url_poster: https://raw.githubusercontent.com/Kometa-Team/Default-Images/master/award/oscars/best_picture_nomination.jpg
-    sort_title: "!130_Oscars !2"
+    sort_title: "!130_1_Oscars !2"
     smart_label:
       sort_by: release.desc
       all:
@@ -25,7 +25,7 @@ collections:
       event_year: 1929-current
       winning: true
     summary: A collection of unwatched Oscar nominated films for Best Motion Picture of the Year
-    sort_title: "!130_Oscars !1"
+    sort_title: "!130_1_Oscars !1"
     url_poster: https://raw.githubusercontent.com/Kometa-Team/Default-Images/master/award/oscars/best_picture_winner.jpg
     smart_label:
       sort_by: release.desc
@@ -43,7 +43,7 @@ collections:
       winning: true
     summary: The Academy Award for Best Director is one of the Academy Awards presented annually by the Academy of Motion Picture Arts and Sciences since the awards debuted in 1929.
     url_poster: https://raw.githubusercontent.com/Kometa-Team/Default-Images/master/award/oscars/best_director_winner.jpg
-    sort_title: "!130_Oscars !3"
+    sort_title: "!130_1_Oscars !3"
     smart_label:
       sort_by: release.desc
       all:
@@ -55,7 +55,7 @@ collections:
     sync_mode: sync
     summary: Unwatched winning films of the Best Foreign Feature and International Feature categories at the Academy Awards/Oscars
     url_poster: https://i.ibb.co/sH8ytfm/international-feature-winners.png
-    sort_title: "!130_Oscars !4"
+    sort_title: "!130_1_Oscars !4"
     smart_label:
       sort_by: release.desc
       all:
@@ -67,7 +67,41 @@ collections:
     sync_mode: sync
     summary: Unwatched winning and nominated films of the Best Foreign Feature Film and International Feature Film categories at the Academy Awards/Oscars
     url_poster: https://i.ibb.co/MBLjgzH/international-feature-nominees.png
-    sort_title: "!130_Oscars !5"
+    sort_title: "!130_1_Oscars !5"
+    smart_label:
+      sort_by: release.desc
+      all:
+        label: <<smart_label>>
+        unplayed: true
+
+  Cannes Golden Palm Winners:
+    imdb_award: 
+      event_id: ev0000147
+      category_filter: ["Palme d'Or"]
+      sync_mode: sync
+      collection_mode: hide
+      event_year: 1929-current
+      winning: true
+    summary: Unwatched Cannes "Palme d'Or" Winners.
+    url_poster: https://raw.githubusercontent.com/Kometa-Team/Default-Images/master/award/cannes/best_picture_winner.jpg
+    sort_title: "!130_2_Cannes_ !1"
+    smart_label:
+      sort_by: release.desc
+      all:
+        label: <<smart_label>>
+        unplayed: true
+
+  Cannes Winners:
+    imdb_award: 
+      event_id: ev0000147
+      category_filter: ["Palme d'Or", Grand Prize of the Festival, Jury Prize, Jury Special Prize, Best Director, Un Certain Regard Award, Un Certain Regard Jury Prize]
+      sync_mode: sync
+      collection_mode: hide
+      event_year: 1929-current
+      winning: true
+    summary: Unwatched Cannes "Palme d'Or", Grand Prize of the Festival, Jury Prize, Jury Special Prize, Best Director, Un Certain Regard Award, and Un Certain Regard Jury Prize Winners.
+    url_poster: https://raw.githubusercontent.com/Kometa-Team/Default-Images/master/award/cannes/winner.jpg
+    sort_title: "!130_2_Cannes_ !2"
     smart_label:
       sort_by: release.desc
       all:
@@ -84,7 +118,7 @@ collections:
       winning: true
     summary: "Unwatched British Academy of Film and Television Arts Best Film and Best Director Winners."
     url_poster: https://raw.githubusercontent.com/Kometa-Team/Default-Images/master/award/bafta/winner.jpg
-    sort_title: "!130_BAFTA !"
+    sort_title: "!130_3_BAFTA !"
     smart_label:
       sort_by: release.desc
       all:
