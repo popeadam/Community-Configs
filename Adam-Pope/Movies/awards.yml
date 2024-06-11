@@ -9,7 +9,7 @@ collections:
       winning: false
     summary: A collection of unwatched Oscar nominated films for Best Motion Picture of the Year
     url_poster: https://raw.githubusercontent.com/Kometa-Team/Default-Images/master/award/oscars/best_picture_nomination.jpg
-    sort_title: "!130_1_Oscars !2"
+    sort_title: "!130_1_Oscars_2!"
     smart_label:
       sort_by: release.desc
       all:
@@ -25,7 +25,7 @@ collections:
       event_year: 1929-current
       winning: true
     summary: A collection of unwatched Oscar nominated films for Best Motion Picture of the Year
-    sort_title: "!130_1_Oscars !1"
+    sort_title: "!130_1_Oscars_1!"
     url_poster: https://raw.githubusercontent.com/Kometa-Team/Default-Images/master/award/oscars/best_picture_winner.jpg
     smart_label:
       sort_by: release.desc
@@ -43,7 +43,7 @@ collections:
       winning: true
     summary: The Academy Award for Best Director is one of the Academy Awards presented annually by the Academy of Motion Picture Arts and Sciences since the awards debuted in 1929.
     url_poster: https://raw.githubusercontent.com/Kometa-Team/Default-Images/master/award/oscars/best_director_winner.jpg
-    sort_title: "!130_1_Oscars !3"
+    sort_title: "!130_1_Oscars_3!"
     smart_label:
       sort_by: release.desc
       all:
@@ -55,7 +55,7 @@ collections:
     sync_mode: sync
     summary: Unwatched winning films of the Best Foreign Feature and International Feature categories at the Academy Awards/Oscars
     url_poster: https://i.ibb.co/sH8ytfm/international-feature-winners.png
-    sort_title: "!130_1_Oscars !4"
+    sort_title: "!130_1_Oscars_4!"
     smart_label:
       sort_by: release.desc
       all:
@@ -67,7 +67,7 @@ collections:
     sync_mode: sync
     summary: Unwatched winning and nominated films of the Best Foreign Feature Film and International Feature Film categories at the Academy Awards/Oscars
     url_poster: https://i.ibb.co/MBLjgzH/international-feature-nominees.png
-    sort_title: "!130_1_Oscars !5"
+    sort_title: "!130_1_Oscars_5!"
     smart_label:
       sort_by: release.desc
       all:
@@ -79,11 +79,11 @@ collections:
       event_id: ev0000003
       sync_mode: sync
       collection_mode: hide
-      event_year: -current
+      event_year: 2024
       winning: false
     summary: "Unwatched winning and nominated films at the 2024 Oscars"
     url_poster: https://raw.githubusercontent.com/Kometa-Team/Default-Images/master/award/oscars/2024.jpg
-    sort_title: "!130_1_Oscars !6"
+    sort_title: "!130_1_Oscars_6!"
     smart_label:
       sort_by: user_rating.desc
       all:
@@ -100,7 +100,7 @@ collections:
       winning: true
     summary: Unwatched Cannes "Palme d'Or" Winners.
     url_poster: https://raw.githubusercontent.com/Kometa-Team/Default-Images/master/award/cannes/best_picture_winner.jpg
-    sort_title: "!130_2_Cannes_ !1"
+    sort_title: "!130_2_Cannes_1!"
     smart_label:
       sort_by: release.desc
       all:
@@ -117,7 +117,7 @@ collections:
       winning: true
     summary: Unwatched Cannes "Palme d'Or", Grand Prize of the Festival, Jury Prize, Jury Special Prize, Best Director, Un Certain Regard Award, and Un Certain Regard Jury Prize Winners.
     url_poster: https://raw.githubusercontent.com/Kometa-Team/Default-Images/master/award/cannes/winner.jpg
-    sort_title: "!130_2_Cannes_ !2"
+    sort_title: "!130_2_Cannes_2!"
     smart_label:
       sort_by: release.desc
       all:
@@ -129,11 +129,11 @@ collections:
       event_id: ev0000147
       sync_mode: sync
       collection_mode: hide
-      event_year: -current
+      event_year: 2023
       winning: false
     summary: "Unwatched winning and nominated films at the 2024 Cannes Awards."
-    url_poster: https://raw.githubusercontent.com/Kometa-Team/Default-Images/master/award/cannes/2024.jpg
-    sort_title: "!130_3_Cesar !"
+    url_poster: https://raw.githubusercontent.com/Kometa-Team/Default-Images/master/award/cannes/2023.jpg
+    sort_title: "!130_2_Cannes_3!"
     smart_label:
       sort_by: user_rating.desc
       all:
@@ -150,7 +150,7 @@ collections:
       winning: true
     summary: "Unwatched British Academy of Film and Television Arts Best Film and Best Director Winners."
     url_poster: https://raw.githubusercontent.com/Kometa-Team/Default-Images/master/award/bafta/winner.jpg
-    sort_title: "!130_3_BAFTA !"
+    sort_title: "!130_3_BAFTA_1!"
     smart_label:
       sort_by: release.desc
       all:
@@ -162,11 +162,11 @@ collections:
       event_id: ev0000123
       sync_mode: sync
       collection_mode: hide
-      event_year: -current
+      event_year: 2024
       winning: false
     summary: "Unwatched winning and nominated films at the 2024 BAFTA Awards."
     url_poster: https://raw.githubusercontent.com/Kometa-Team/Default-Images/master/award/bafta/2024.jpg
-    sort_title: "!130_3_Cesar !"
+    sort_title: "!130_3_BAFTA_2!"
     smart_label:
       sort_by: user_rating.desc
       all:
@@ -183,7 +183,7 @@ collections:
       winning: true
     summary: "Unwatched César Awards Best Film and Best Director Winners."
     url_poster: https://raw.githubusercontent.com/Kometa-Team/Default-Images/master/award/cesar/winner.jpg
-    sort_title: "!130_3_Cesar !"
+    sort_title: "!130_3_Cesar_1!"
     smart_label:
       sort_by: release.desc
       all:
@@ -195,11 +195,11 @@ collections:
       event_id: ev0000157
       sync_mode: sync
       collection_mode: hide
-      event_year: -current
+      event_year: 2024
       winning: false
     summary: "Unwatched winning and nominated films at the 2024 César Awards."
     url_poster: https://raw.githubusercontent.com/Kometa-Team/Default-Images/master/award/cesar/2024.jpg
-    sort_title: "!130_3_Cesar !"
+    sort_title: "!130_3_Cesar_2!"
     smart_label:
       sort_by: user_rating.desc
       all:
@@ -216,7 +216,7 @@ collections:
       winning: true
     summary: "Unwatched Berlin International Film Festival Best Film and Best Director Winners."
     url_poster: https://raw.githubusercontent.com/Kometa-Team/Default-Images/master/award/berlinale/winner.jpg
-    sort_title: "!130_4_berlinale !"
+    sort_title: "!130_4_berlinale_1!"
     smart_label:
       sort_by: release.desc
       all:
@@ -228,11 +228,11 @@ collections:
       event_id: ev0000091
       sync_mode: sync
       collection_mode: hide
-      event_year: -current
+      event_year: 2024
       winning: false
     summary: "Unwatched winning and nominated films at the 2024 Berlin International Film Festival"
     url_poster: https://raw.githubusercontent.com/Kometa-Team/Default-Images/master/award/berlinale/2024.jpg
-    sort_title: "!130_4_berlinale !"
+    sort_title: "!130_4_berlinale_2!"
     smart_label:
       sort_by: user_rating.desc
       all:
