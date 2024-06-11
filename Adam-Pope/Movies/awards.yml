@@ -108,6 +108,22 @@ collections:
         label: <<smart_label>>
         unplayed: true
 
+    Cannes 2024:
+    imdb_award:
+      event_id: ev0000147
+      sync_mode: sync
+      collection_mode: hide
+      event_year: current
+      winning: false
+    summary: "Unwatched winning and nominated films at the 2024 Cannes Awards."
+    url_poster: https://raw.githubusercontent.com/Kometa-Team/Default-Images/master/award/cannes/2024.jpg
+    sort_title: "!130_3_Cesar !"
+    smart_label:
+      sort_by: user_rating.desc
+      all:
+        label: <<smart_label>>
+        unplayed: true
+
   BAFTA Winners:
     imdb_award: 
       event_id: ev0000123
@@ -124,4 +140,53 @@ collections:
       all:
         label: <<smart_label>>
         unplayed: true
-    
+
+    BAFTA 2024:
+    imdb_award:
+      event_id: ev0000123
+      sync_mode: sync
+      collection_mode: hide
+      event_year: current
+      winning: false
+    summary: "Unwatched winning and nominated films at the 2024 BAFTA Awards."
+    url_poster: https://raw.githubusercontent.com/Kometa-Team/Default-Images/master/award/bafta/2024.jpg
+    sort_title: "!130_3_Cesar !"
+    smart_label:
+      sort_by: user_rating.desc
+      all:
+        label: <<smart_label>>
+        unplayed: true
+        
+  César Winners:
+    imdb_award: 
+      event_id: ev0000157
+      category_filter: [Best Film (Meilleur film), Best Director (Meilleur réalisateur)]
+      sync_mode: sync
+      collection_mode: hide
+      event_year: 1929-current
+      winning: true
+    summary: "Unwatched César Awards Best Film and Best Director Winners."
+    url_poster: https://raw.githubusercontent.com/Kometa-Team/Default-Images/master/award/cesar/winner.jpg
+    sort_title: "!130_3_Cesar !"
+    smart_label:
+      sort_by: release.desc
+      all:
+        label: <<smart_label>>
+        unplayed: true
+
+  César 2024:
+    imdb_award:
+      event_id: ev0000157
+      sync_mode: sync
+      collection_mode: hide
+      event_year: current
+      winning: false
+    summary: "Unwatched winning and nominated films at the 2024 César Awards."
+    url_poster: https://raw.githubusercontent.com/Kometa-Team/Default-Images/master/award/cesar/2024.jpg
+    sort_title: "!130_3_Cesar !"
+    smart_label:
+      sort_by: user_rating.desc
+      all:
+        label: <<smart_label>>
+        unplayed: true
+        
