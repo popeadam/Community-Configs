@@ -104,7 +104,7 @@ collections:
       collection_mode: hide
       event_year: 1929-current
       winning: true
-    summary: Unwatched Cannes "Palme d'Or" Winners.
+    summary: "Unwatched Cannes Palme d'Or Winners."
     collection_filtering: user
     url_poster: https://raw.githubusercontent.com/Kometa-Team/Default-Images/master/award/cannes/best_picture_winner.jpg
     sort_title: "!130_2_Cannes_1!"
@@ -122,7 +122,7 @@ collections:
       collection_mode: hide
       event_year: 1929-current
       winning: true
-    summary: Unwatched Cannes "Palme d'Or", Grand Prize of the Festival, Jury Prize, Jury Special Prize, Best Director, Un Certain Regard Award, and Un Certain Regard Jury Prize Winners.
+    summary: "Unwatched Cannes Palme d'Or, Grand Prize of the Festival, Jury Prize, Jury Special Prize, Best Director, Un Certain Regard Award, and Un Certain Regard Jury Prize Winners."
     collection_filtering: user
     url_poster: https://raw.githubusercontent.com/Kometa-Team/Default-Images/master/award/cannes/winner.jpg
     sort_title: "!130_2_Cannes_2!"
