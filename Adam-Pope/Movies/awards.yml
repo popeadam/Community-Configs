@@ -1,15 +1,15 @@
 collections:
-  Oscars Best Picture Nominees:
+  Oscars Nominees:
     imdb_award: 
       event_id: ev0000003
-      category_filter: [best picture, best motion picture of the year]
+      category_filter: [best picture, best motion picture of the year, Best Achievement in Directing, Best Director]
       sync_mode: sync
       collection_mode: hide
       event_year: 1929-current
       winning: false
-    summary: A collection of unwatched Oscar nominated films for Best Motion Picture of the Year
+    summary: A collection of unwatched Oscar nominated films for Best Film and Best Director
     collection_filtering: user
-    url_poster: https://raw.githubusercontent.com/Kometa-Team/Default-Images/master/award/oscars/best_picture_nomination.jpg
+    url_poster: https://raw.githubusercontent.com/Kometa-Team/Default-Images/master/award/oscars/nomination.jpg
     sort_title: "!130_1_Oscars_2!"
     smart_label:
       sort_by: release.desc
@@ -17,36 +17,18 @@ collections:
         label: <<smart_label>>
         unplayed: true
 
-  Oscars Best Picture Winners:
+  Oscars Winners:
     imdb_award: 
       event_id: ev0000003
-      category_filter: [best picture, best motion picture of the year]
+      category_filter: [best picture, best motion picture of the year, Best Achievement in Directing, Best Director]
       sync_mode: sync
       collection_mode: hide
       event_year: 1929-current
       winning: true
-    summary: A collection of unwatched Oscar nominated films for Best Motion Picture of the Year
+    summary: A collection of unwatched Oscar winning films for Best Film and Best Director
     collection_filtering: user
     sort_title: "!130_1_Oscars_1!"
-    url_poster: https://raw.githubusercontent.com/Kometa-Team/Default-Images/master/award/oscars/best_picture_winner.jpg
-    smart_label:
-      sort_by: release.desc
-      all:
-        label: <<smart_label>>
-        unplayed: true
-
-  Oscars Best Director Winners:
-    imdb_award: 
-      event_id: ev0000003
-      category_filter: [Best Achievement in Directing, Best Director]
-      sync_mode: sync
-      collection_mode: hide
-      event_year: 1929-current
-      winning: true
-    summary: The Academy Award for Best Director is one of the Academy Awards presented annually by the Academy of Motion Picture Arts and Sciences since the awards debuted in 1929.
-    collection_filtering: user
-    url_poster: https://raw.githubusercontent.com/Kometa-Team/Default-Images/master/award/oscars/best_director_winner.jpg
-    sort_title: "!130_1_Oscars_3!"
+    url_poster: https://raw.githubusercontent.com/Kometa-Team/Default-Images/master/award/oscars/winner.jpg
     smart_label:
       sort_by: release.desc
       all:
