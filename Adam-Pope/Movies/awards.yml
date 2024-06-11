@@ -256,7 +256,7 @@ collections:
   Sundance Winners:
     imdb_award: 
       event_id: ev0000631
-      category_filter: [Grand Jury Prize, Directing Award, Audience Award]
+      award_filter: [Grand Jury Prize, Directing Award, Audience Award]
       sync_mode: sync
       collection_mode: hide
       event_year: 1929-current
@@ -326,7 +326,7 @@ collections:
   Golden Globes Winners:
     imdb_award: 
       event_id: ev0000292
-      category_filter: ["Best Motion Picture, Drama", "Best Motion Picture, Musical or Comedy", "Best Motion Picture, Animated", Cinematic and Box Office Achievement, "Best Motion Picture, Non-English Language", "Best Director, Motion Picture", "Best Screenplay, Motion Picture"]
+      award_filter: [Goloden Globe]
       sync_mode: sync
       collection_mode: hide
       event_year: 1929-current
