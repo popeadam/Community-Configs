@@ -68,7 +68,7 @@ collections:
       collection_mode: hide
       event_year: latest
       winning: false
-    summary: "Unwatched winning and nominated films at the 2024 Oscars"
+    summary: "Unwatched winning and nominated films at the latest Oscars"
     collection_filtering: user
     url_poster: https://raw.githubusercontent.com/Kometa-Team/Default-Images/master/award/oscars/2024.jpg
     sort_title: "!130_1_Oscars_6!"
@@ -138,7 +138,7 @@ collections:
       collection_mode: hide
       event_year: latest
       winning: false
-    summary: "Unwatched winning and nominated films at the 2024 Cannes Awards."
+    summary: "Unwatched winning and nominated films at the latest Cannes Awards."
     collection_filtering: user
     url_poster: https://raw.githubusercontent.com/Kometa-Team/Default-Images/master/award/cannes/2024.jpg
     sort_title: "!130_2_Cannes_3!"
@@ -173,7 +173,7 @@ collections:
       collection_mode: hide
       event_year: latest
       winning: false
-    summary: "Unwatched winning and nominated films at the 2024 BAFTA Awards."
+    summary: "Unwatched winning and nominated films at the latest BAFTA Awards."
     collection_filtering: user
     url_poster: https://raw.githubusercontent.com/Kometa-Team/Default-Images/master/award/bafta/2024.jpg
     sort_title: "!130_3_BAFTA_2!"
@@ -208,7 +208,7 @@ collections:
       collection_mode: hide
       event_year: latest
       winning: false
-    summary: "Unwatched winning and nominated films at the 2024 César Awards."
+    summary: "Unwatched winning and nominated films at the latest César Awards."
     collection_filtering: user
     url_poster: https://raw.githubusercontent.com/Kometa-Team/Default-Images/master/award/cesar/2024.jpg
     sort_title: "!130_3_Cesar_2!"
@@ -243,7 +243,7 @@ collections:
       collection_mode: hide
       event_year: latest
       winning: false
-    summary: "Unwatched winning and nominated films at the 2024 Berlin International Film Festival"
+    summary: "Unwatched winning and nominated films at the latest Berlin International Film Festival"
     collection_filtering: user
     url_poster: https://raw.githubusercontent.com/Kometa-Team/Default-Images/master/award/berlinale/2024.jpg
     sort_title: "!130_4_berlinale_2!"
@@ -252,3 +252,109 @@ collections:
       all:
         label: <<smart_label>>
         unplayed: true
+
+  Sundance Winners:
+    imdb_award: 
+      event_id: ev0000631
+      category_filter: [Grand Jury Prize, Directing Award, Audience Award]
+      sync_mode: sync
+      collection_mode: hide
+      event_year: 1929-current
+      winning: true
+    summary: "Unwatched Sundance Grand Jury Prize, Directing Award, Audience Award Winners."
+    collection_filtering: user
+    url_poster: https://raw.githubusercontent.com/Kometa-Team/Default-Images/master/award/sundance/winner.jpg
+    sort_title: "!130_4_sundance_1!"
+    smart_label:
+      sort_by: release.desc
+      all:
+        label: <<smart_label>>
+        unplayed: true
+
+  Sundance 2024:
+    imdb_award:
+      event_id: ev0000631
+      sync_mode: sync
+      collection_mode: hide
+      event_year: latest
+      winning: false
+    summary: "Unwatched winning and nominated films at the latest Sundance Film Festival"
+    collection_filtering: user
+    url_poster: https://raw.githubusercontent.com/Kometa-Team/Default-Images/master/award/sundance/2024.jpg
+    sort_title: "!130_4_sundance_2!"
+    smart_label:
+      sort_by: user_rating.desc
+      all:
+        label: <<smart_label>>
+        unplayed: true
+
+  Venice Winners:
+    imdb_award: 
+      event_id: ev0000681
+      category_filter: [Golden Lion, Silver Lion, Special Jury Prize]
+      sync_mode: sync
+      collection_mode: hide
+      event_year: 1929-current
+      winning: true
+    summary: "Unwatched Venice Film Festival Golden Lion, Silver Lion, and Special Jury Prize Award Winners."
+    collection_filtering: user
+    url_poster: https://raw.githubusercontent.com/Kometa-Team/Default-Images/master/award/venice/winner.jpg
+    sort_title: "!130_4_venice_1!"
+    smart_label:
+      sort_by: release.desc
+      all:
+        label: <<smart_label>>
+        unplayed: true
+
+  Venice 2024:
+    imdb_award:
+      event_id: ev0000681
+      sync_mode: sync
+      collection_mode: hide
+      event_year: latest
+      winning: false
+    summary: "Unwatched winning and nominated films at the latest Venice Film Festival"
+    collection_filtering: user
+    url_poster: https://raw.githubusercontent.com/Kometa-Team/Default-Images/master/award/venice/2024.jpg
+    sort_title: "!130_4_venice_2!"
+    smart_label:
+      sort_by: user_rating.desc
+      all:
+        label: <<smart_label>>
+        unplayed: true
+
+  Golden Globes Winners:
+    imdb_award: 
+      event_id: ev0000292
+      category_filter: ["Best Motion Picture, Drama", "Best Motion Picture, Musical or Comedy", "Best Motion Picture, Animated", Cinematic and Box Office Achievement, "Best Motion Picture, Non-English Language", "Best Director, Motion Picture", "Best Screenplay, Motion Picture"]
+      sync_mode: sync
+      collection_mode: hide
+      event_year: 1929-current
+      winning: true
+    summary: "Unwatched Golden Globes Film Festival Best Motion Pictures, Cinematic and Box Office Achievement, Best Director, and Best Screenplay Award Winners."
+    collection_filtering: user
+    url_poster: https://raw.githubusercontent.com/Kometa-Team/Default-Images/master/award/golden/winner.jpg
+    sort_title: "!130_4_golden_1!"
+    smart_label:
+      sort_by: release.desc
+      all:
+        label: <<smart_label>>
+        unplayed: true
+
+  Golden Globes 2024:
+    imdb_award:
+      event_id: ev0000292
+      sync_mode: sync
+      collection_mode: hide
+      event_year: latest
+      winning: false
+    summary: "Unwatched winning and nominated films at the latest Golden Globes Film Festival"
+    collection_filtering: user
+    url_poster: https://raw.githubusercontent.com/Kometa-Team/Default-Images/master/award/golden/2024.jpg
+    sort_title: "!130_4_golden_2!"
+    smart_label:
+      sort_by: user_rating.desc
+      all:
+        label: <<smart_label>>
+        unplayed: true
+  
