@@ -124,6 +124,22 @@ collections:
         label: <<smart_label>>
         unplayed: true
 
+  Cannes 2023:
+    imdb_award:
+      event_id: ev0000147
+      sync_mode: sync
+      collection_mode: hide
+      event_year: 2023
+      winning: false
+    summary: "Unwatched winning and nominated films at the 2023 Cannes Awards."
+    url_poster: https://raw.githubusercontent.com/Kometa-Team/Default-Images/master/award/cannes/2023.jpg
+    sort_title: "!130_2_Cannes_3!"
+    smart_label:
+      sort_by: user_rating.desc
+      all:
+        label: <<smart_label>>
+        unplayed: true
+
   Cannes 2024:
     imdb_award:
       event_id: ev0000147
@@ -132,7 +148,7 @@ collections:
       event_year: 2023
       winning: false
     summary: "Unwatched winning and nominated films at the 2024 Cannes Awards."
-    url_poster: https://raw.githubusercontent.com/Kometa-Team/Default-Images/master/award/cannes/2023.jpg
+    url_poster: https://raw.githubusercontent.com/Kometa-Team/Default-Images/master/award/cannes/2024.jpg
     sort_title: "!130_2_Cannes_3!"
     smart_label:
       sort_by: user_rating.desc
