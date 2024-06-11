@@ -334,7 +334,7 @@ collections:
     summary: "Unwatched Golden Globes Film Festival Best Motion Pictures, Cinematic and Box Office Achievement, Best Director, and Best Screenplay Award Winners."
     collection_filtering: user
     url_poster: https://raw.githubusercontent.com/Kometa-Team/Default-Images/master/award/golden/winner.jpg
-    sort_title: "!130_4_golden_1!"
+    sort_title: "!130_3_golden_1!"
     smart_label:
       sort_by: release.desc
       all:
@@ -351,7 +351,7 @@ collections:
     summary: "Unwatched winning and nominated films at the latest Golden Globes Film Festival"
     collection_filtering: user
     url_poster: https://raw.githubusercontent.com/Kometa-Team/Default-Images/master/award/golden/2024.jpg
-    sort_title: "!130_4_golden_2!"
+    sort_title: "!130_3_golden_2!"
     smart_label:
       sort_by: user_rating.desc
       all:
