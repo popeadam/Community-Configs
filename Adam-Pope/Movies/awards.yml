@@ -74,6 +74,22 @@ collections:
         label: <<smart_label>>
         unplayed: true
 
+  Oscars 2024:
+    imdb_award:
+      event_id: ev0000003
+      sync_mode: sync
+      collection_mode: hide
+      event_year: current
+      winning: false
+    summary: "Unwatched winning and nominated films at the 2024 Oscars"
+    url_poster: https://raw.githubusercontent.com/Kometa-Team/Default-Images/master/award/oscars/2024.jpg
+    sort_title: "!130_1_Oscars !6"
+    smart_label:
+      sort_by: user_rating.desc
+      all:
+        label: <<smart_label>>
+        unplayed: true
+
   Cannes Golden Palm Winners:
     imdb_award: 
       event_id: ev0000147
@@ -108,7 +124,7 @@ collections:
         label: <<smart_label>>
         unplayed: true
 
-    Cannes 2024:
+  Cannes 2024:
     imdb_award:
       event_id: ev0000147
       sync_mode: sync
@@ -141,7 +157,7 @@ collections:
         label: <<smart_label>>
         unplayed: true
 
-    BAFTA 2024:
+  BAFTA 2024:
     imdb_award:
       event_id: ev0000123
       sync_mode: sync
@@ -189,4 +205,36 @@ collections:
       all:
         label: <<smart_label>>
         unplayed: true
-        
+
+  Berlinale Winners:
+    imdb_award: 
+      event_id: ev0000091
+      category_filter: [Best Film, Best Director]
+      sync_mode: sync
+      collection_mode: hide
+      event_year: 1929-current
+      winning: true
+    summary: "Unwatched Berlin International Film Festival Best Film and Best Director Winners."
+    url_poster: https://raw.githubusercontent.com/Kometa-Team/Default-Images/master/award/berlinale/winner.jpg
+    sort_title: "!130_4_berlinale !"
+    smart_label:
+      sort_by: release.desc
+      all:
+        label: <<smart_label>>
+        unplayed: true
+
+  Berlinale 2024:
+    imdb_award:
+      event_id: ev0000091
+      sync_mode: sync
+      collection_mode: hide
+      event_year: current
+      winning: false
+    summary: "Unwatched winning and nominated films at the 2024 Berlin International Film Festival"
+    url_poster: https://raw.githubusercontent.com/Kometa-Team/Default-Images/master/award/berlinale/2024.jpg
+    sort_title: "!130_4_berlinale !"
+    smart_label:
+      sort_by: user_rating.desc
+      all:
+        label: <<smart_label>>
+        unplayed: true
