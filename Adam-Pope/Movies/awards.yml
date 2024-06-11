@@ -326,7 +326,7 @@ collections:
   Golden Globes Winners:
     imdb_award: 
       event_id: ev0000292
-      award_filter: [Goloden Globe]
+      award_filter: [Golden Globe]
       sync_mode: sync
       collection_mode: hide
       event_year: 1929-current
