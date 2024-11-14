@@ -56,6 +56,15 @@ collections:
   Top 250 Most Fans:
     letterboxd_list_details: https://letterboxd.com/jack/list/official-top-250-films-with-the-most-fans
     url_poster: https://raw.githubusercontent.com/Kometa-Team/Default-Images/master/chart/Top%20250%20Most%20Fans.jpg
+    sort_title: "!020_LB_4"
+    smart_label:
+      sort_by: release.desc
+      all:
+        label: <<smart_label>>
+        unplayed: true
+  Box Office Mojo All Time 100:
+    letterboxd_list_details: https://letterboxd.com/matthew/list/all-time-worldwide-box-office
+    url_poster: https://raw.githubusercontent.com/Kometa-Team/Default-Images/master/chart/Box%20Office%20Mojo%20All%20Time%20100.jpg
     sort_title: "!020_LB_3"
     smart_label:
       sort_by: release.desc
