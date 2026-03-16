@@ -61,7 +61,7 @@ collections:
         label: <<smart_label>>
         unplayed: true
 
-  Oscars 2024:
+  Oscars 2026:
     imdb_award:
       event_id: ev0000003
       sync_mode: sync
