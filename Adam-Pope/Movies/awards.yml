@@ -114,7 +114,7 @@ collections:
         label: <<smart_label>>
         unplayed: true
 
-  Cannes 2023:
+  Cannes 2026:
     imdb_award:
       event_id: ev0000147
       sync_mode: sync
@@ -131,7 +131,7 @@ collections:
         label: <<smart_label>>
         unplayed: true
 
-  Cannes 2024:
+  Cannes 2025:
     imdb_award:
       event_id: ev0000147
       sync_mode: sync
@@ -166,7 +166,7 @@ collections:
         label: <<smart_label>>
         unplayed: true
 
-  BAFTA 2024:
+  BAFTA 2026:
     imdb_award:
       event_id: ev0000123
       sync_mode: sync
@@ -201,7 +201,7 @@ collections:
         label: <<smart_label>>
         unplayed: true
 
-  César 2024:
+  César 2026:
     imdb_award:
       event_id: ev0000157
       sync_mode: sync
@@ -236,7 +236,7 @@ collections:
         label: <<smart_label>>
         unplayed: true
 
-  Berlinale 2024:
+  Berlinale 2026:
     imdb_award:
       event_id: ev0000091
       sync_mode: sync
@@ -271,7 +271,7 @@ collections:
         label: <<smart_label>>
         unplayed: true
 
-  Sundance 2024:
+  Sundance 2026:
     imdb_award:
       event_id: ev0000631
       sync_mode: sync
@@ -306,7 +306,7 @@ collections:
         label: <<smart_label>>
         unplayed: true
 
-  Venice 2024:
+  Venice 2026:
     imdb_award:
       event_id: ev0000681
       sync_mode: sync
@@ -341,7 +341,7 @@ collections:
         label: <<smart_label>>
         unplayed: true
 
-  Golden Globes 2024:
+  Golden Globes 2026:
     imdb_award:
       event_id: ev0000292
       sync_mode: sync
