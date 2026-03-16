@@ -1,6 +1,6 @@
 collections:
   Top 250 Horrors:
-    letterboxd_list_details: https://letterboxd.com/darrencb/list/letterboxds-top-250-horror-films
+    letterboxd_list_details: https://letterboxd.com/official/list/top-250-horror-films
     url_poster: https://raw.githubusercontent.com/Kometa-Team/Default-Images/master/chart/Top%20250%20Horror.jpg
     sort_title: "!020_LB_3"
     smart_label:
@@ -8,8 +8,8 @@ collections:
       all:
         label: <<smart_label>>
         unplayed: true
-  Letterboxd Top 250:
-    letterboxd_list_details: https://letterboxd.com/dave/list/official-top-250-narrative-feature-films
+  Letterboxd Top 500:
+    letterboxd_list_details: https://letterboxd.com/official/list/letterboxds-top-500-films
     url_poster: https://raw.githubusercontent.com/Kometa-Team/Default-Images/master/chart/Letterboxd%20Top%20250.jpg
     sort_title: "!020_LB_1"
     smart_label:
@@ -54,7 +54,7 @@ collections:
         label: <<smart_label>>
         unplayed: true
   Top 250 Most Fans:
-    letterboxd_list_details: https://letterboxd.com/jack/list/official-top-250-films-with-the-most-fans
+    letterboxd_list_details: https://letterboxd.com/official/list/top-250-films-with-the-most-fans
     url_poster: https://raw.githubusercontent.com/Kometa-Team/Default-Images/master/chart/Top%20250%20Most%20Fans.jpg
     sort_title: "!020_LB_4"
     smart_label:
