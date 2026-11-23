@@ -35,32 +35,6 @@ collections:
         label: <<smart_label>>
         unplayed: true
 
-  Oscars International Feature Winners:
-    trakt_list: https://trakt.tv/users/popeadam/lists/academy-awards-best-international-feature-film
-    sync_mode: sync
-    summary: Unwatched winning films of the Best Foreign Feature and International Feature categories at the Academy Awards/Oscars
-    collection_filtering: user
-    url_poster: https://i.ibb.co/sH8ytfm/international-feature-winners.png
-    sort_title: "!130_1_Oscars_4!"
-    smart_label:
-      sort_by: release.desc
-      all:
-        label: <<smart_label>>
-        unplayed: true
-
-  Oscars International Feature Nominees:
-    trakt_list: https://trakt.tv/users/popeadam/lists/academy-awards-international-feature-film-nominees
-    sync_mode: sync
-    summary: Unwatched winning and nominated films of the Best Foreign Feature Film and International Feature Film categories at the Academy Awards/Oscars
-    collection_filtering: user
-    url_poster: https://i.ibb.co/MBLjgzH/international-feature-nominees.png
-    sort_title: "!130_1_Oscars_5!"
-    smart_label:
-      sort_by: release.desc
-      all:
-        label: <<smart_label>>
-        unplayed: true
-
   Oscars 2026:
     imdb_award:
       event_id: ev0000003
