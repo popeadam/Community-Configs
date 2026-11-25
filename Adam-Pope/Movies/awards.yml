@@ -12,7 +12,7 @@ collections:
     url_poster: https://raw.githubusercontent.com/Kometa-Team/Default-Images/master/award/oscars/nomination.jpg
     sort_title: "!130_1_Oscars_2!"
     smart_label:
-      sort_by: release.desc
+      sort_by: user_rating.desc
       all:
         label: <<smart_label>>
         unplayed: true
@@ -30,27 +30,26 @@ collections:
     sort_title: "!130_1_Oscars_1!"
     url_poster: https://raw.githubusercontent.com/Kometa-Team/Default-Images/master/award/oscars/winner.jpg
     smart_label:
-      sort_by: release.desc
+      sort_by: user_rating.desc
       all:
         label: <<smart_label>>
         unplayed: true
 
-  Oscars 2026:
+  Latest Oscar Winners:
     imdb_award:
       event_id: ev0000003
       sync_mode: sync
       collection_mode: hide
-      event_year: latest
+      event_year: current
       winning: false
-    summary: "Unwatched winning and nominated films at the latest Oscars"
+    summary: "Winning and nominated films at the latest Oscars"
     collection_filtering: user
-    url_poster: https://raw.githubusercontent.com/Kometa-Team/Default-Images/master/award/oscars/2024.jpg
+    url_poster: https://raw.githubusercontent.com/Kometa-Team/Default-Images/master/award/oscars/<<year>>.jpg
     sort_title: "!130_1_Oscars_6!"
     smart_label:
       sort_by: user_rating.desc
       all:
         label: <<smart_label>>
-        unplayed: true
 
   Cannes Golden Palm Winners:
     imdb_award: 
@@ -65,7 +64,7 @@ collections:
     url_poster: https://raw.githubusercontent.com/Kometa-Team/Default-Images/master/award/cannes/best_picture_winner.jpg
     sort_title: "!130_2_Cannes_1!"
     smart_label:
-      sort_by: release.desc
+      sort_by: user_rating.desc
       all:
         label: <<smart_label>>
         unplayed: true
@@ -83,44 +82,26 @@ collections:
     url_poster: https://raw.githubusercontent.com/Kometa-Team/Default-Images/master/award/cannes/winner.jpg
     sort_title: "!130_2_Cannes_2!"
     smart_label:
-      sort_by: release.desc
-      all:
-        label: <<smart_label>>
-        unplayed: true
-
-  Cannes 2026:
-    imdb_award:
-      event_id: ev0000147
-      sync_mode: sync
-      collection_mode: hide
-      event_year: 2023
-      winning: false
-    summary: "Unwatched winning and nominated films at the 2023 Cannes Awards."
-    collection_filtering: user
-    url_poster: https://raw.githubusercontent.com/Kometa-Team/Default-Images/master/award/cannes/2023.jpg
-    sort_title: "!130_2_Cannes_3!"
-    smart_label:
       sort_by: user_rating.desc
       all:
         label: <<smart_label>>
         unplayed: true
 
-  Cannes 2025:
+  Latest Cannes Winners:
     imdb_award:
       event_id: ev0000147
       sync_mode: sync
       collection_mode: hide
-      event_year: latest
+      event_year: current
       winning: false
-    summary: "Unwatched winning and nominated films at the latest Cannes Awards."
+    summary: "Winning and nominated films at the latest Cannes Awards."
     collection_filtering: user
-    url_poster: https://raw.githubusercontent.com/Kometa-Team/Default-Images/master/award/cannes/2024.jpg
+    url_poster: https://raw.githubusercontent.com/Kometa-Team/Default-Images/master/award/cannes/<<year>>.jpg
     sort_title: "!130_2_Cannes_3!"
     smart_label:
       sort_by: user_rating.desc
       all:
         label: <<smart_label>>
-        unplayed: true
 
   BAFTA Winners:
     imdb_award: 
@@ -135,27 +116,26 @@ collections:
     url_poster: https://raw.githubusercontent.com/Kometa-Team/Default-Images/master/award/bafta/winner.jpg
     sort_title: "!130_3_BAFTA_1!"
     smart_label:
-      sort_by: release.desc
+      sort_by: user_rating.desc
       all:
         label: <<smart_label>>
         unplayed: true
 
-  BAFTA 2026:
+  Latest BAFTA Winners:
     imdb_award:
       event_id: ev0000123
       sync_mode: sync
       collection_mode: hide
-      event_year: latest
+      event_year: current
       winning: false
-    summary: "Unwatched winning and nominated films at the latest BAFTA Awards."
+    summary: "Winning and nominated films at the latest BAFTA Awards."
     collection_filtering: user
-    url_poster: https://raw.githubusercontent.com/Kometa-Team/Default-Images/master/award/bafta/2024.jpg
+    url_poster: https://raw.githubusercontent.com/Kometa-Team/Default-Images/master/award/bafta/<<year>>.jpg
     sort_title: "!130_3_BAFTA_2!"
     smart_label:
       sort_by: user_rating.desc
       all:
         label: <<smart_label>>
-        unplayed: true
         
   César Winners:
     imdb_award: 
@@ -170,27 +150,26 @@ collections:
     url_poster: https://raw.githubusercontent.com/Kometa-Team/Default-Images/master/award/cesar/winner.jpg
     sort_title: "!130_3_Cesar_1!"
     smart_label:
-      sort_by: release.desc
+      sort_by: user_rating.desc
       all:
         label: <<smart_label>>
         unplayed: true
 
-  César 2026:
+  Latest César Winners:
     imdb_award:
       event_id: ev0000157
       sync_mode: sync
       collection_mode: hide
-      event_year: latest
+      event_year: current
       winning: false
-    summary: "Unwatched winning and nominated films at the latest César Awards."
+    summary: "Winning and nominated films at the latest César Awards."
     collection_filtering: user
-    url_poster: https://raw.githubusercontent.com/Kometa-Team/Default-Images/master/award/cesar/2024.jpg
+    url_poster: https://raw.githubusercontent.com/Kometa-Team/Default-Images/master/award/cesar/<<year>>.jpg
     sort_title: "!130_3_Cesar_2!"
     smart_label:
       sort_by: user_rating.desc
       all:
         label: <<smart_label>>
-        unplayed: true
 
   Berlinale Winners:
     imdb_award: 
@@ -205,27 +184,26 @@ collections:
     url_poster: https://raw.githubusercontent.com/Kometa-Team/Default-Images/master/award/berlinale/winner.jpg
     sort_title: "!130_4_berlinale_1!"
     smart_label:
-      sort_by: release.desc
+      sort_by: user_rating.desc
       all:
         label: <<smart_label>>
         unplayed: true
 
-  Berlinale 2026:
+  Latest Berlinale Winners:
     imdb_award:
       event_id: ev0000091
       sync_mode: sync
       collection_mode: hide
-      event_year: latest
+      event_year: current
       winning: false
-    summary: "Unwatched winning and nominated films at the latest Berlin International Film Festival"
+    summary: "Winning and nominated films at the latest Berlin International Film Festival"
     collection_filtering: user
-    url_poster: https://raw.githubusercontent.com/Kometa-Team/Default-Images/master/award/berlinale/2024.jpg
+    url_poster: https://raw.githubusercontent.com/Kometa-Team/Default-Images/master/award/berlinale/<<year>>.jpg
     sort_title: "!130_4_berlinale_2!"
     smart_label:
       sort_by: user_rating.desc
       all:
         label: <<smart_label>>
-        unplayed: true
 
   Sundance Winners:
     imdb_award: 
@@ -240,27 +218,26 @@ collections:
     url_poster: https://raw.githubusercontent.com/Kometa-Team/Default-Images/master/award/sundance/winner.jpg
     sort_title: "!130_4_sundance_1!"
     smart_label:
-      sort_by: release.desc
+      sort_by: user_rating.desc
       all:
         label: <<smart_label>>
         unplayed: true
 
-  Sundance 2026:
+  Latest Sundance Winners:
     imdb_award:
       event_id: ev0000631
       sync_mode: sync
       collection_mode: hide
-      event_year: latest
+      event_year: current
       winning: false
-    summary: "Unwatched winning and nominated films at the latest Sundance Film Festival"
+    summary: "Winning and nominated films at the latest Sundance Film Festival"
     collection_filtering: user
-    url_poster: https://raw.githubusercontent.com/Kometa-Team/Default-Images/master/award/sundance/2024.jpg
+    url_poster: https://raw.githubusercontent.com/Kometa-Team/Default-Images/master/award/sundance/<<year>>.jpg
     sort_title: "!130_4_sundance_2!"
     smart_label:
       sort_by: user_rating.desc
       all:
         label: <<smart_label>>
-        unplayed: true
 
   Venice Winners:
     imdb_award: 
@@ -275,27 +252,26 @@ collections:
     url_poster: https://raw.githubusercontent.com/Kometa-Team/Default-Images/master/award/venice/winner.jpg
     sort_title: "!130_4_venice_1!"
     smart_label:
-      sort_by: release.desc
+      sort_by: user_rating.desc
       all:
         label: <<smart_label>>
         unplayed: true
 
-  Venice 2026:
+  Latest Venice Winners:
     imdb_award:
       event_id: ev0000681
       sync_mode: sync
       collection_mode: hide
-      event_year: latest
+      event_year: current
       winning: false
-    summary: "Unwatched winning and nominated films at the latest Venice Film Festival"
+    summary: "Winning and nominated films at the latest Venice Film Festival"
     collection_filtering: user
-    url_poster: https://raw.githubusercontent.com/Kometa-Team/Default-Images/master/award/venice/2024.jpg
+    url_poster: https://raw.githubusercontent.com/Kometa-Team/Default-Images/master/award/venice/<<year>>.jpg
     sort_title: "!130_4_venice_2!"
     smart_label:
       sort_by: user_rating.desc
       all:
         label: <<smart_label>>
-        unplayed: true
 
   Golden Globes Winners:
     imdb_award: 
@@ -310,25 +286,58 @@ collections:
     url_poster: https://raw.githubusercontent.com/Kometa-Team/Default-Images/master/award/golden/winner.jpg
     sort_title: "!130_3_golden_1!"
     smart_label:
-      sort_by: release.desc
+      sort_by: user_rating.desc
       all:
         label: <<smart_label>>
         unplayed: true
 
-  Golden Globes 2026:
+  Latest Golden Globes Winners:
     imdb_award:
       event_id: ev0000292
       sync_mode: sync
       collection_mode: hide
-      event_year: latest
+      event_year: current
       winning: false
-    summary: "Unwatched winning and nominated films at the latest Golden Globes Film Festival"
+    summary: "Winning and nominated films at the latest Golden Globes Film Festival"
     collection_filtering: user
-    url_poster: https://raw.githubusercontent.com/Kometa-Team/Default-Images/master/award/golden/2024.jpg
+    url_poster: https://raw.githubusercontent.com/Kometa-Team/Default-Images/master/award/golden/<<year>>.jpg
     sort_title: "!130_3_golden_2!"
     smart_label:
       sort_by: user_rating.desc
       all:
         label: <<smart_label>>
+
+  Toronto IFF Winners:
+    imdb_award: 
+      event_id: ev0000659
+      award_filter: [People's Choice Award]
+      sync_mode: sync
+      collection_mode: hide
+      event_year: 1929-current
+      winning: true
+    summary: "Unwatched Toronto International Film Festival People's Choice Award Winners."
+    collection_filtering: user
+    url_poster: https://raw.githubusercontent.com/Kometa-Team/Default-Images/master/award/tiff/winner.jpg
+    sort_title: "!130_3_tiff_1!"
+    smart_label:
+      sort_by: user_rating.desc
+      all:
+        label: <<smart_label>>
         unplayed: true
-  
+
+  <<year>> Toronto IFF Winners:
+    imdb_award:
+      event_id: ev0000659
+      sync_mode: sync
+      collection_mode: hide
+      event_year: current
+      winning: false
+    summary: "Unwatched winning and nominated films at the latest Toronto International Film Festival"
+    collection_filtering: user
+    url_poster: https://raw.githubusercontent.com/Kometa-Team/Default-Images/master/award/tiff/<<year>>.jpg
+    sort_title: "!130_3_tiff_2!"
+    smart_label:
+      sort_by: user_rating.desc
+      all:
+        label: <<smart_label>>
+        unplayed: true
