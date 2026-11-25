@@ -21,6 +21,8 @@ templates:
         unplayed: true
 
   Latest:
+    default:
+      thisyear: 2026
     imdb_award:
       event_id: <<event_id>>
       event_year: <<thisyear>>
