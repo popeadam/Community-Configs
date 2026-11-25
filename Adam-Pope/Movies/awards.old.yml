@@ -20,7 +20,7 @@ collections:
   Oscars Winners:
     imdb_award: 
       event_id: ev0000003
-      category_filter: [best picture, best motion picture of the year, Best Achievement in Directing, Best Director]
+      category_filter: [Best Picture, Best Motion Picture of the Year, Best Achievement in Directing, Best Director]
       sync_mode: sync
       collection_mode: hide
       event_year: 1929-current
@@ -50,6 +50,40 @@ collections:
       sort_by: user_rating.desc
       all:
         label: <<smart_label>>
+
+  Oscars International Feature Winners:
+    imdb_award:
+      event_id: ev0000003
+      category_filter: [Best International Feature Film, Best Foreign Language Film]
+      sync_mode: sync
+      collection_mode: hide
+      event_year: current
+      winning: true
+    collection_filtering: user
+    summary: Winners of the Best Foreign Feature Film and International Feature Film categories at the Academy Awards/Oscars
+    url_poster: https://i.ibb.co/sH8ytfm/international-feature-winners.png
+    smart_label:
+      sort_by: user_rating.desc
+      all:
+        label: <<smart_label>>
+        unplayed: true
+    
+  Oscars International Feature Nominees:
+    imdb_award:
+      event_id: ev0000003
+      category_filter: [Best International Feature Film, Best Foreign Language Film]
+      sync_mode: sync
+      collection_mode: hide
+      event_year: current
+      winning: false
+    collection_filtering: user
+    summary: Winners and nominees of the Best Foreign Feature Film and International Feature FIlm categories at the Academy Awards/Oscars
+    url_poster:: https://i.ibb.co/sH8ytfm/international-feature-winners.png
+    smart_label:
+      sort_by: user_rating.desc
+      all:
+        label: <<smart_label>>
+        unplayed: true
 
   Cannes Golden Palm Winners:
     imdb_award: 
