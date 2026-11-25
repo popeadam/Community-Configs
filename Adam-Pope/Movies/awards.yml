@@ -39,7 +39,7 @@ collections:
     template:
       name: Award
       event_id: ev0000003
-      categories: &oscar_cats [Best Picture, Best Motion Picture of the Year, Outstanding Picture, Outstanding Production, Best Achievement in Directing, Best Director]
+      categories: &oscar_cats [Best Picture, Best Motion Picture of the Year, Best Achievement in Directing, Best Director]
     summary: Unwatched Oscar-winning films for Best Picture and Best Director
     url_poster: https://raw.githubusercontent.com/Kometa-Team/Default-Images/master/award/oscars/winner.jpg
     sort_title: "!130_1_Oscars_1!"
@@ -54,7 +54,7 @@ collections:
     url_poster: https://raw.githubusercontent.com/Kometa-Team/Default-Images/master/award/oscars/nomination.jpg
     sort_title: "!130_1_Oscars_2!"
 
-  Oscars International Feature Winners:
+  Oscars International Winners:
     template:
       name: Award
       event_id: ev0000003
@@ -63,14 +63,14 @@ collections:
     url_poster: https://i.ibb.co/sH8ytfm/international-feature-winners.png
     sort_title: "!130_1_Oscars_3!"
 
-  Oscars International Feature Nominees:
+  Oscars International Nominees:
     template:
       name: Award
       event_id: ev0000003
       categories: *intl_cats
       winning: false
     summary: Unwatched nominees (including winners) of Best Foreign Language / International Feature Film
-    url_poster: https://i.ibb.co/sH8ytfm/international-feature-winners.png
+    url_poster: https://i.ibb.co/sH8ytfm/international-feature-nominees.png
     sort_title: "!130_1_Oscars_4!"
 
   Latest Oscars:
@@ -149,7 +149,7 @@ collections:
     template:
       name: Award
       event_id: ev0000292
-      award_filter: [Best Motion Picture - Drama, Best Motion Picture - Musical or Comedy, Best Director - Motion Picture, Best Screenplay - Motion Picture]
+      categories: [Best Motion Picture - Drama, Best Motion Picture - Musical or Comedy, Best Director - Motion Picture, Best Screenplay - Motion Picture]
     summary: Unwatched Golden Globe winners for Best Motion Picture, Director and Screenplay
     url_poster: https://raw.githubusercontent.com/Kometa-Team/Default-Images/master/award/golden/winner.jpg
     sort_title: "!130_3_golden_1!"
@@ -167,7 +167,7 @@ collections:
     template:
       name: Award
       event_id: ev0000659
-      award_filter: [People's Choice Award, International People’s Choice Award]
+      categories: [People's Choice Award, International People’s Choice Award]
     summary: Unwatched Toronto International Film Festival People's Choice winners
     url_poster: https://raw.githubusercontent.com/Kometa-Team/Default-Images/master/award/tiff/winner.jpg
     sort_title: "!130_3_tiff_1!"
