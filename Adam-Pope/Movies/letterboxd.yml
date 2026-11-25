@@ -18,7 +18,7 @@ collections:
         label: <<smart_label>>
         unplayed: true
   Sight & Sound Greatest Films:
-    letterboxd_list_details: https://letterboxd.com/bfi/list/sight-and-sounds-greatest-films-of-all-time
+    letterboxd_list_details: https://letterboxd.com/poliphant/list/the-top-250-greatest-films-of-all-time-2022
     url_poster: https://raw.githubusercontent.com/Kometa-Team/Default-Images/master/chart/color/Sight%20%26%20Sound%20Greatest%20Films.jpg
     sort_title: "!020_LB_4"
     smart_label:
