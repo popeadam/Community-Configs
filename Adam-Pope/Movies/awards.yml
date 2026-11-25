@@ -5,7 +5,6 @@ templates:
     default:
       years: all
       winning: true
-      thisyear: 2026
     imdb_award:
       event_id: <<event_id>>
       category_filter: <<categories>>
@@ -73,6 +72,7 @@ collections:
       categories: *intl_cats
       winning: false
     summary: Unwatched nominees (including winners) of Best Foreign Language / International Feature Film
+    url_poster: https://i.ibb.co/sH8ytfm/international-feature-nominees.png
     sort_title: "!130_1_Oscars_4!"
 
   Latest Oscars:
@@ -81,7 +81,6 @@ collections:
       event_id: ev0000003
       poster: oscars
     summary: Winning and nominated films at the latest Oscars
-    url_poster: https://raw.githubusercontent.com/Kometa-Team/Default-Images/master/award/oscars/<<thisyear>>.jpg
     sort_title: "!130_1_Oscars_6!"
 
   # ---------- Cannes ----------
