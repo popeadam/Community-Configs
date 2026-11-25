@@ -169,7 +169,7 @@ collections:
     template:
       name: Award
       event_id: ev0000659
-      categories: [People's Choice Award, International People’s Choice Award]
+      categories: [People's Choice Award]
     summary: Unwatched Toronto International Film Festival People's Choice winners
     url_poster: https://raw.githubusercontent.com/Kometa-Team/Default-Images/master/award/tiff/winner.jpg
     sort_title: "!130_3_tiff_1!"
