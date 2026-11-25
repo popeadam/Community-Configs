@@ -5,6 +5,7 @@ templates:
     default:
       years: all
       winning: true
+      thisyear: 2026
     imdb_award:
       event_id: <<event_id>>
       category_filter: <<categories>>
@@ -22,7 +23,7 @@ templates:
   Latest:
     imdb_award:
       event_id: <<event_id>>
-      event_year: current
+      event_year: <<thisyear>>
       winning: false
       sync_mode: sync
     collection_mode: hide
@@ -77,7 +78,7 @@ collections:
       name: Latest
       event_id: ev0000003
     summary: Winning and nominated films at the latest Oscars
-    url_poster: https://raw.githubusercontent.com/Kometa-Team/Default-Images/master/award/oscars/2026.jpg
+    url_poster: https://raw.githubusercontent.com/Kometa-Team/Default-Images/master/award/oscars/<<thisyear>>.jpg
     sort_title: "!130_1_Oscars_6!"
 
   # ---------- Cannes ----------
@@ -104,7 +105,7 @@ collections:
       name: Latest
       event_id: ev0000147
     summary: Winning and nominated films at the latest Cannes Film Festival
-    url_poster: https://raw.githubusercontent.com/Kometa-Team/Default-Images/master/award/cannes/2026.jpg
+    url_poster: https://raw.githubusercontent.com/Kometa-Team/Default-Images/master/award/cannes/<<thisyear>>.jpg
     sort_title: "!130_2_Cannes_3!"
 
   # ---------- BAFTA ----------
@@ -122,7 +123,7 @@ collections:
       name: Latest
       event_id: ev0000123
     summary: Winning and nominated films at the latest BAFTA Awards
-    url_poster: https://raw.githubusercontent.com/Kometa-Team/Default-Images/master/award/bafta/2026.jpg
+    url_poster: https://raw.githubusercontent.com/Kometa-Team/Default-Images/master/award/bafta/<<thisyear>>.jpg
     sort_title: "!130_3_BAFTA_2!"
 
   # ---------- César ----------
@@ -140,7 +141,7 @@ collections:
       name: Latest
       event_id: ev0000157
     summary: Winning and nominated films at the latest César Awards
-    url_poster: https://raw.githubusercontent.com/Kometa-Team/Default-Images/master/award/cesar/2026.jpg
+    url_poster: https://raw.githubusercontent.com/Kometa-Team/Default-Images/master/award/cesar/<<thisyear>>.jpg
     sort_title: "!130_3_Cesar_2!"
 
   # ---------- Golden Globes ----------
@@ -159,7 +160,7 @@ collections:
       name: Latest
       event_id: ev0000292
     summary: Winning and nominated films at the latest Golden Globes
-    url_poster: https://raw.githubusercontent.com/Kometa-Team/Default-Images/master/award/golden/2026.jpg
+    url_poster: https://raw.githubusercontent.com/Kometa-Team/Default-Images/master/award/golden/<<thisyear>>.jpg
     sort_title: "!130_3_golden_2!"
 
   # ---------- TIFF ----------
@@ -177,7 +178,7 @@ collections:
       name: Latest
       event_id: ev0000659
     summary: Winning and nominated films at the latest Toronto International Film Festival
-    url_poster: https://raw.githubusercontent.com/Kometa-Team/Default-Images/master/award/tiff/2026.jpg
+    url_poster: https://raw.githubusercontent.com/Kometa-Team/Default-Images/master/award/tiff/<<thisyear>>.jpg
     sort_title: "!130_3_tiff_2!"
 
   # ---------- Berlinale ----------
@@ -195,7 +196,7 @@ collections:
       name: Latest
       event_id: ev0000091
     summary: Winning and nominated films at the latest Berlin International Film Festival
-    url_poster: https://raw.githubusercontent.com/Kometa-Team/Default-Images/master/award/berlinale/2026.jpg
+    url_poster: https://raw.githubusercontent.com/Kometa-Team/Default-Images/master/award/berlinale/<<thisyear>>.jpg
     sort_title: "!130_4_berlinale_2!"
 
   # ---------- Sundance ----------
@@ -213,7 +214,7 @@ collections:
       name: Latest
       event_id: ev0000631
     summary: Winning and nominated films at the latest Sundance Film Festival
-    url_poster: https://raw.githubusercontent.com/Kometa-Team/Default-Images/master/award/sundance/2026.jpg
+    url_poster: https://raw.githubusercontent.com/Kometa-Team/Default-Images/master/award/sundance/<<thisyear>>.jpg
     sort_title: "!130_4_sundance_2!"
 
   # ---------- Venice ----------
@@ -221,7 +222,7 @@ collections:
     template:
       name: Award
       event_id: ev0000681
-      categories: [Golden Lion, Silver Lion, Special Jury Prize]
+      award_filter: [Golden Lion, Silver Lion, Special Jury Prize]
     summary: Unwatched Venice Golden Lion, Silver Lion and Special Jury Prize winners
     url_poster: https://raw.githubusercontent.com/Kometa-Team/Default-Images/master/award/venice/winner.jpg
     sort_title: "!130_4_venice_1!"
@@ -231,5 +232,5 @@ collections:
       name: Latest
       event_id: ev0000681
     summary: Winning and nominated films at the latest Venice Film Festival
-    url_poster: https://raw.githubusercontent.com/Kometa-Team/Default-Images/master/award/venice/2026.jpg
+    url_poster: https://raw.githubusercontent.com/Kometa-Team/Default-Images/master/award/venice/<<thisyear>>.jpg
     sort_title: "!130_4_venice_2!"
