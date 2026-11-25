@@ -28,13 +28,14 @@ templates:
       event_year: <<thisyear>>
       winning: false
       sync_mode: sync
+    url_poster: https://raw.githubusercontent.com/Kometa-Team/Default-Images/master/award/<<poster>>/<<thisyear>>.jpg
     collection_mode: hide
     collection_filtering: user
     smart_label:
       sort_by: user_rating.desc
       all:
         label: <<smart_label>>
-
+        
 collections:
   # ---------- Oscars ----------
   Oscars Winners:
@@ -72,13 +73,13 @@ collections:
       categories: *intl_cats
       winning: false
     summary: Unwatched nominees (including winners) of Best Foreign Language / International Feature Film
-    url_poster: https://i.ibb.co/sH8ytfm/international-feature-nominees.png
     sort_title: "!130_1_Oscars_4!"
 
   Latest Oscars:
     template:
       name: Latest
       event_id: ev0000003
+      poster: oscars
     summary: Winning and nominated films at the latest Oscars
     url_poster: https://raw.githubusercontent.com/Kometa-Team/Default-Images/master/award/oscars/<<thisyear>>.jpg
     sort_title: "!130_1_Oscars_6!"
@@ -106,8 +107,8 @@ collections:
     template:
       name: Latest
       event_id: ev0000147
+      poster: cannes
     summary: Winning and nominated films at the latest Cannes Film Festival
-    url_poster: https://raw.githubusercontent.com/Kometa-Team/Default-Images/master/award/cannes/<<thisyear>>.jpg
     sort_title: "!130_2_Cannes_3!"
 
   # ---------- BAFTA ----------
@@ -124,8 +125,8 @@ collections:
     template:
       name: Latest
       event_id: ev0000123
+      poster: bafta
     summary: Winning and nominated films at the latest BAFTA Awards
-    url_poster: https://raw.githubusercontent.com/Kometa-Team/Default-Images/master/award/bafta/<<thisyear>>.jpg
     sort_title: "!130_3_BAFTA_2!"
 
   # ---------- César ----------
@@ -142,8 +143,8 @@ collections:
     template:
       name: Latest
       event_id: ev0000157
+      poster: cesar
     summary: Winning and nominated films at the latest César Awards
-    url_poster: https://raw.githubusercontent.com/Kometa-Team/Default-Images/master/award/cesar/<<thisyear>>.jpg
     sort_title: "!130_3_Cesar_2!"
 
   # ---------- Golden Globes ----------
@@ -160,8 +161,8 @@ collections:
     template:
       name: Latest
       event_id: ev0000292
+      poster: golden
     summary: Winning and nominated films at the latest Golden Globes
-    url_poster: https://raw.githubusercontent.com/Kometa-Team/Default-Images/master/award/golden/<<thisyear>>.jpg
     sort_title: "!130_3_golden_2!"
 
   # ---------- TIFF ----------
@@ -178,8 +179,8 @@ collections:
     template:
       name: Latest
       event_id: ev0000659
+      poster: tiff
     summary: Winning and nominated films at the latest Toronto International Film Festival
-    url_poster: https://raw.githubusercontent.com/Kometa-Team/Default-Images/master/award/tiff/<<thisyear>>.jpg
     sort_title: "!130_3_tiff_2!"
 
   # ---------- Berlinale ----------
@@ -196,8 +197,8 @@ collections:
     template:
       name: Latest
       event_id: ev0000091
+      poster: berlinale
     summary: Winning and nominated films at the latest Berlin International Film Festival
-    url_poster: https://raw.githubusercontent.com/Kometa-Team/Default-Images/master/award/berlinale/<<thisyear>>.jpg
     sort_title: "!130_4_berlinale_2!"
 
   # ---------- Sundance ----------
@@ -214,8 +215,8 @@ collections:
     template:
       name: Latest
       event_id: ev0000631
+      poster: sundance
     summary: Winning and nominated films at the latest Sundance Film Festival
-    url_poster: https://raw.githubusercontent.com/Kometa-Team/Default-Images/master/award/sundance/<<thisyear>>.jpg
     sort_title: "!130_4_sundance_2!"
 
   # ---------- Venice ----------
@@ -232,6 +233,6 @@ collections:
     template:
       name: Latest
       event_id: ev0000681
+      poster: venice
     summary: Winning and nominated films at the latest Venice Film Festival
-    url_poster: https://raw.githubusercontent.com/Kometa-Team/Default-Images/master/award/venice/<<thisyear>>.jpg
     sort_title: "!130_4_venice_2!"
