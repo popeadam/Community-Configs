@@ -149,8 +149,7 @@ collections:
     template:
       name: Award
       event_id: ev0000292
-      # VERIFY these names on IMDb's Golden Globes event page
-      categories: [Best Motion Picture - Drama, Best Motion Picture - Musical or Comedy, Best Director - Motion Picture, Best Screenplay - Motion Picture]
+      award_filter: [Best Motion Picture - Drama, Best Motion Picture - Musical or Comedy, Best Director - Motion Picture, Best Screenplay - Motion Picture]
     summary: Unwatched Golden Globe winners for Best Motion Picture, Director and Screenplay
     url_poster: https://raw.githubusercontent.com/Kometa-Team/Default-Images/master/award/golden/winner.jpg
     sort_title: "!130_3_golden_1!"
@@ -168,7 +167,7 @@ collections:
     template:
       name: Award
       event_id: ev0000659
-      categories: [People's Choice Award, International People’s Choice Award]
+      award_filter: [People's Choice Award, International People’s Choice Award]
     summary: Unwatched Toronto International Film Festival People's Choice winners
     url_poster: https://raw.githubusercontent.com/Kometa-Team/Default-Images/master/award/tiff/winner.jpg
     sort_title: "!130_3_tiff_1!"
@@ -204,7 +203,7 @@ collections:
     template:
       name: Award
       event_id: ev0000631
-      categories: [Grand Jury Prize, Directing Award, Audience Award]
+      award_filter: [Grand Jury Prize, Directing Award, Audience Award]
     summary: Unwatched Sundance Grand Jury Prize, Directing Award and Audience Award winners
     url_poster: https://raw.githubusercontent.com/Kometa-Team/Default-Images/master/award/sundance/winner.jpg
     sort_title: "!130_4_sundance_1!"
@@ -222,7 +221,7 @@ collections:
     template:
       name: Award
       event_id: ev0000681
-      award_filter: [Golden Lion, Silver Lion, Special Jury Prize]
+      categories: [Golden Lion, Silver Lion, Special Jury Prize]
     summary: Unwatched Venice Golden Lion, Silver Lion and Special Jury Prize winners
     url_poster: https://raw.githubusercontent.com/Kometa-Team/Default-Images/master/award/venice/winner.jpg
     sort_title: "!130_4_venice_1!"
