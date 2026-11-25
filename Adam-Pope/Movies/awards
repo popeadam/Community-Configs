@@ -1,0 +1,235 @@
+templates:
+  Award:
+    optional:
+      - categories
+    default:
+      years: all
+      winning: true
+    imdb_award:
+      event_id: <<event_id>>
+      category_filter: <<categories>>
+      event_year: <<years>>
+      winning: <<winning>>
+      sync_mode: sync
+    collection_mode: hide
+    collection_filtering: user
+    smart_label:
+      sort_by: user_rating.desc
+      all:
+        label: <<smart_label>>
+        unplayed: true
+
+  Latest:
+    imdb_award:
+      event_id: <<event_id>>
+      event_year: current
+      winning: false
+      sync_mode: sync
+    collection_mode: hide
+    collection_filtering: user
+    smart_label:
+      sort_by: user_rating.desc
+      all:
+        label: <<smart_label>>
+
+collections:
+  # ---------- Oscars ----------
+  Oscars Winners:
+    template:
+      name: Award
+      event_id: ev0000003
+      categories: &oscar_cats [Best Picture, Best Motion Picture of the Year, Outstanding Picture, Outstanding Production, Best Achievement in Directing, Best Director]
+    summary: Unwatched Oscar-winning films for Best Picture and Best Director
+    url_poster: https://raw.githubusercontent.com/Kometa-Team/Default-Images/master/award/oscars/winner.jpg
+    sort_title: "!130_1_Oscars_1!"
+
+  Oscars Nominees:
+    template:
+      name: Award
+      event_id: ev0000003
+      categories: *oscar_cats
+      winning: false
+    summary: Unwatched Oscar-nominated films (including winners) for Best Picture and Best Director
+    url_poster: https://raw.githubusercontent.com/Kometa-Team/Default-Images/master/award/oscars/nomination.jpg
+    sort_title: "!130_1_Oscars_2!"
+
+  Oscars International Feature Winners:
+    template:
+      name: Award
+      event_id: ev0000003
+      categories: &intl_cats [Best International Feature Film, Best Foreign Language Film]
+    summary: Unwatched winners of Best Foreign Language / International Feature Film
+    url_poster: https://i.ibb.co/sH8ytfm/international-feature-winners.png
+    sort_title: "!130_1_Oscars_3!"
+
+  Oscars International Feature Nominees:
+    template:
+      name: Award
+      event_id: ev0000003
+      categories: *intl_cats
+      winning: false
+    summary: Unwatched nominees (including winners) of Best Foreign Language / International Feature Film
+    url_poster: https://i.ibb.co/sH8ytfm/international-feature-winners.png
+    sort_title: "!130_1_Oscars_4!"
+
+  Latest Oscars:
+    template:
+      name: Latest
+      event_id: ev0000003
+    summary: Winning and nominated films at the latest Oscars
+    url_poster: https://raw.githubusercontent.com/Kometa-Team/Default-Images/master/award/oscars/2026.jpg
+    sort_title: "!130_1_Oscars_6!"
+
+  # ---------- Cannes ----------
+  Cannes Golden Palm Winners:
+    template:
+      name: Award
+      event_id: ev0000147
+      categories: ["Palme d'Or"]
+    summary: Unwatched Cannes Palme d'Or winners
+    url_poster: https://raw.githubusercontent.com/Kometa-Team/Default-Images/master/award/cannes/best_picture_winner.jpg
+    sort_title: "!130_2_Cannes_1!"
+
+  Cannes Winners:
+    template:
+      name: Award
+      event_id: ev0000147
+      categories: ["Palme d'Or", Grand Prize of the Festival, Grand Prize of the Jury, Jury Prize, Jury Special Prize, Best Director, Un Certain Regard Award, Un Certain Regard Jury Prize]
+    summary: Unwatched Cannes Palme d'Or, Grand Prize, Jury Prize, Best Director and Un Certain Regard winners
+    url_poster: https://raw.githubusercontent.com/Kometa-Team/Default-Images/master/award/cannes/winner.jpg
+    sort_title: "!130_2_Cannes_2!"
+
+  Latest Cannes:
+    template:
+      name: Latest
+      event_id: ev0000147
+    summary: Winning and nominated films at the latest Cannes Film Festival
+    url_poster: https://raw.githubusercontent.com/Kometa-Team/Default-Images/master/award/cannes/2026.jpg
+    sort_title: "!130_2_Cannes_3!"
+
+  # ---------- BAFTA ----------
+  BAFTA Winners:
+    template:
+      name: Award
+      event_id: ev0000123
+      categories: [Best Film, Best Director]
+    summary: Unwatched BAFTA Best Film and Best Director winners
+    url_poster: https://raw.githubusercontent.com/Kometa-Team/Default-Images/master/award/bafta/winner.jpg
+    sort_title: "!130_3_BAFTA_1!"
+
+  Latest BAFTA:
+    template:
+      name: Latest
+      event_id: ev0000123
+    summary: Winning and nominated films at the latest BAFTA Awards
+    url_poster: https://raw.githubusercontent.com/Kometa-Team/Default-Images/master/award/bafta/2026.jpg
+    sort_title: "!130_3_BAFTA_2!"
+
+  # ---------- César ----------
+  César Winners:
+    template:
+      name: Award
+      event_id: ev0000157
+      categories: [Best Film (Meilleur film), Best Director (Meilleur réalisateur)]
+    summary: Unwatched César Best Film and Best Director winners
+    url_poster: https://raw.githubusercontent.com/Kometa-Team/Default-Images/master/award/cesar/winner.jpg
+    sort_title: "!130_3_Cesar_1!"
+
+  Latest César:
+    template:
+      name: Latest
+      event_id: ev0000157
+    summary: Winning and nominated films at the latest César Awards
+    url_poster: https://raw.githubusercontent.com/Kometa-Team/Default-Images/master/award/cesar/2026.jpg
+    sort_title: "!130_3_Cesar_2!"
+
+  # ---------- Golden Globes ----------
+  Golden Globes Winners:
+    template:
+      name: Award
+      event_id: ev0000292
+      # VERIFY these names on IMDb's Golden Globes event page
+      categories: [Best Motion Picture - Drama, Best Motion Picture - Musical or Comedy, Best Director - Motion Picture, Best Screenplay - Motion Picture]
+    summary: Unwatched Golden Globe winners for Best Motion Picture, Director and Screenplay
+    url_poster: https://raw.githubusercontent.com/Kometa-Team/Default-Images/master/award/golden/winner.jpg
+    sort_title: "!130_3_golden_1!"
+
+  Latest Golden Globes:
+    template:
+      name: Latest
+      event_id: ev0000292
+    summary: Winning and nominated films at the latest Golden Globes
+    url_poster: https://raw.githubusercontent.com/Kometa-Team/Default-Images/master/award/golden/2026.jpg
+    sort_title: "!130_3_golden_2!"
+
+  # ---------- TIFF ----------
+  Toronto IFF Winners:
+    template:
+      name: Award
+      event_id: ev0000659
+      categories: [People's Choice Award, International People’s Choice Award]
+    summary: Unwatched Toronto International Film Festival People's Choice winners
+    url_poster: https://raw.githubusercontent.com/Kometa-Team/Default-Images/master/award/tiff/winner.jpg
+    sort_title: "!130_3_tiff_1!"
+
+  Latest Toronto IFF:
+    template:
+      name: Latest
+      event_id: ev0000659
+    summary: Winning and nominated films at the latest Toronto International Film Festival
+    url_poster: https://raw.githubusercontent.com/Kometa-Team/Default-Images/master/award/tiff/2026.jpg
+    sort_title: "!130_3_tiff_2!"
+
+  # ---------- Berlinale ----------
+  Berlinale Winners:
+    template:
+      name: Award
+      event_id: ev0000091
+      categories: [Best Film, Best Director]
+    summary: Unwatched Berlinale Best Film and Best Director winners
+    url_poster: https://raw.githubusercontent.com/Kometa-Team/Default-Images/master/award/berlinale/winner.jpg
+    sort_title: "!130_4_berlinale_1!"
+
+  Latest Berlinale:
+    template:
+      name: Latest
+      event_id: ev0000091
+    summary: Winning and nominated films at the latest Berlin International Film Festival
+    url_poster: https://raw.githubusercontent.com/Kometa-Team/Default-Images/master/award/berlinale/2026.jpg
+    sort_title: "!130_4_berlinale_2!"
+
+  # ---------- Sundance ----------
+  Sundance Winners:
+    template:
+      name: Award
+      event_id: ev0000631
+      categories: [Grand Jury Prize, Directing Award, Audience Award]
+    summary: Unwatched Sundance Grand Jury Prize, Directing Award and Audience Award winners
+    url_poster: https://raw.githubusercontent.com/Kometa-Team/Default-Images/master/award/sundance/winner.jpg
+    sort_title: "!130_4_sundance_1!"
+
+  Latest Sundance:
+    template:
+      name: Latest
+      event_id: ev0000631
+    summary: Winning and nominated films at the latest Sundance Film Festival
+    url_poster: https://raw.githubusercontent.com/Kometa-Team/Default-Images/master/award/sundance/2026.jpg
+    sort_title: "!130_4_sundance_2!"
+
+  # ---------- Venice ----------
+  Venice Winners:
+    template:
+      name: Award
+      event_id: ev0000681
+      categories: [Golden Lion, Silver Lion, Special Jury Prize]
+    summary: Unwatched Venice Golden Lion, Silver Lion and Special Jury Prize winners
+    url_poster: https://raw.githubusercontent.com/Kometa-Team/Default-Images/master/award/venice/winner.jpg
+    sort_title: "!130_4_venice_1!"
+
+  Latest Venice:
+    template:
+      name: Latest
+      event_id: ev0000681
+    summary: Winning and nominated films at the latest Venice Film Festival
+    url_poster: https://raw.githubusercontent.com/Kometa-Team/Default-Images/master/award/venice/2026.jpg
+    sort_title: "!130_4_venice_2!"
