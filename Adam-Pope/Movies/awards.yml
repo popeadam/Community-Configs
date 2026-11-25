@@ -44,7 +44,7 @@ collections:
       winning: false
     summary: "Winning and nominated films at the latest Oscars"
     collection_filtering: user
-    url_poster: https://raw.githubusercontent.com/Kometa-Team/Default-Images/master/award/oscars/<<year>>.jpg
+    url_poster: https://raw.githubusercontent.com/Kometa-Team/Default-Images/master/award/oscars/2026.jpg
     sort_title: "!130_1_Oscars_6!"
     smart_label:
       sort_by: user_rating.desc
@@ -96,7 +96,7 @@ collections:
       winning: false
     summary: "Winning and nominated films at the latest Cannes Awards."
     collection_filtering: user
-    url_poster: https://raw.githubusercontent.com/Kometa-Team/Default-Images/master/award/cannes/<<year>>.jpg
+    url_poster: https://raw.githubusercontent.com/Kometa-Team/Default-Images/master/award/cannes/2026.jpg
     sort_title: "!130_2_Cannes_3!"
     smart_label:
       sort_by: user_rating.desc
@@ -130,7 +130,7 @@ collections:
       winning: false
     summary: "Winning and nominated films at the latest BAFTA Awards."
     collection_filtering: user
-    url_poster: https://raw.githubusercontent.com/Kometa-Team/Default-Images/master/award/bafta/<<year>>.jpg
+    url_poster: https://raw.githubusercontent.com/Kometa-Team/Default-Images/master/award/bafta/2026.jpg
     sort_title: "!130_3_BAFTA_2!"
     smart_label:
       sort_by: user_rating.desc
@@ -164,7 +164,7 @@ collections:
       winning: false
     summary: "Winning and nominated films at the latest César Awards."
     collection_filtering: user
-    url_poster: https://raw.githubusercontent.com/Kometa-Team/Default-Images/master/award/cesar/<<year>>.jpg
+    url_poster: https://raw.githubusercontent.com/Kometa-Team/Default-Images/master/award/cesar/2026.jpg
     sort_title: "!130_3_Cesar_2!"
     smart_label:
       sort_by: user_rating.desc
@@ -198,7 +198,7 @@ collections:
       winning: false
     summary: "Winning and nominated films at the latest Berlin International Film Festival"
     collection_filtering: user
-    url_poster: https://raw.githubusercontent.com/Kometa-Team/Default-Images/master/award/berlinale/<<year>>.jpg
+    url_poster: https://raw.githubusercontent.com/Kometa-Team/Default-Images/master/award/berlinale/2026.jpg
     sort_title: "!130_4_berlinale_2!"
     smart_label:
       sort_by: user_rating.desc
@@ -232,7 +232,7 @@ collections:
       winning: false
     summary: "Winning and nominated films at the latest Sundance Film Festival"
     collection_filtering: user
-    url_poster: https://raw.githubusercontent.com/Kometa-Team/Default-Images/master/award/sundance/<<year>>.jpg
+    url_poster: https://raw.githubusercontent.com/Kometa-Team/Default-Images/master/award/sundance/2026.jpg
     sort_title: "!130_4_sundance_2!"
     smart_label:
       sort_by: user_rating.desc
@@ -266,7 +266,7 @@ collections:
       winning: false
     summary: "Winning and nominated films at the latest Venice Film Festival"
     collection_filtering: user
-    url_poster: https://raw.githubusercontent.com/Kometa-Team/Default-Images/master/award/venice/<<year>>.jpg
+    url_poster: https://raw.githubusercontent.com/Kometa-Team/Default-Images/master/award/venice/2026.jpg
     sort_title: "!130_4_venice_2!"
     smart_label:
       sort_by: user_rating.desc
@@ -300,7 +300,7 @@ collections:
       winning: false
     summary: "Winning and nominated films at the latest Golden Globes Film Festival"
     collection_filtering: user
-    url_poster: https://raw.githubusercontent.com/Kometa-Team/Default-Images/master/award/golden/<<year>>.jpg
+    url_poster: https://raw.githubusercontent.com/Kometa-Team/Default-Images/master/award/golden/2026.jpg
     sort_title: "!130_3_golden_2!"
     smart_label:
       sort_by: user_rating.desc
@@ -310,12 +310,12 @@ collections:
   Toronto IFF Winners:
     imdb_award: 
       event_id: ev0000659
-      award_filter: [People's Choice Award]
+      award_filter: [People's Choice Award, International People’s Choice Award]
       sync_mode: sync
       collection_mode: hide
       event_year: 1929-current
       winning: true
-    summary: "Unwatched Toronto International Film Festival People's Choice Award Winners."
+    summary: "Unwatched Toronto International Film Festival People's Choice Awards Winners."
     collection_filtering: user
     url_poster: https://raw.githubusercontent.com/Kometa-Team/Default-Images/master/award/tiff/winner.jpg
     sort_title: "!130_3_tiff_1!"
@@ -325,7 +325,7 @@ collections:
         label: <<smart_label>>
         unplayed: true
 
-  <<year>> Toronto IFF Winners:
+  Latest Toronto IFF Winners:
     imdb_award:
       event_id: ev0000659
       sync_mode: sync
@@ -334,7 +334,7 @@ collections:
       winning: false
     summary: "Unwatched winning and nominated films at the latest Toronto International Film Festival"
     collection_filtering: user
-    url_poster: https://raw.githubusercontent.com/Kometa-Team/Default-Images/master/award/tiff/<<year>>.jpg
+    url_poster: https://raw.githubusercontent.com/Kometa-Team/Default-Images/master/award/tiff/2026.jpg
     sort_title: "!130_3_tiff_2!"
     smart_label:
       sort_by: user_rating.desc
